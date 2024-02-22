@@ -1,0 +1,77 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.TaskMaster" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#1562e9</item>
+        <item name="colorPrimaryDark">#1562e9</item>
+        <item name="colorAccent">#1562e9</item>
+    </style>
+
+    <style name="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">#1562e9</item>
+        <item name="colorAccent">#1562e9</item>
+        <item name="colorPrimaryDark">#1562e9</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="appCompatStyle" parent="Theme.MaterialComponents">
+        <item name="colorPrimary">#1562e9</item>
+        <item name="colorPrimaryDark">#1562e9</item>
+        <item name="colorAccent">#1562e9</item>
+    </style>
+    <style name="app_bar_style" parent="Theme.MaterialComponents">
+        <item name="colorPrimary">#1562e9</item>
+        <item name="colorPrimaryDark">#1562e9</item>
+        <item name="colorAccent">#1562e9</item>
+    </style>
+
+    <style name="etStyle">
+
+        <item name="colorPrimary">#1562e9</item>
+        <item name="colorAccent">#1562e9</item>
+
+    </style>
+    
+    <style name="ImageStyleCornerRounded">
+        <item name="cornerSize">15dp</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+
+    <style name="ChooseColorStyleCornerRounded">
+        <item name="cornerSize">10dp</item>
+        <item name="cornerFamily">rounded</item>
+    </style>
+
+    <style name="developerImagecorners" parent="">
+        <item name="cornerSize">15%</item>
+        <item name="cornerFamilyTopLeft">cut</item>
+    </style>
+
+    <style name="progressStyle" parent="Theme.Material3.Light.NoActionBar">
+
+        <item name="colorPrimary">#1562e9</item>
+        <item name="colorAccent">#1562e9</item>
+
+    </style>
+
+    <style name="AppBarOverLay"
+        parent="ThemeOverlay.AppCompat.Dark.ActionBar"
+        >
+    </style>
+
+    <style name="transparent_bar" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <item name="windowActionBar">false</item>
+        <item name="colorPrimary">#1562e9</item>
+        <item name="colorAccent">#1562e9</item>
+        <item name="colorPrimaryDark">#1562e9</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+
+    <style name="PopupOverlay"
+        parent="ThemeOverlay.AppCompat.Light"
+        ></style>
+
+    <style name="Theme.TaskMaster" parent="Base.Theme.TaskMaster" />
+</resources>

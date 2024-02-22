@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/ib_edit_list_name"
+        android:orderInCategory="100"
+        android:title="Edit"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/ib_delete_list"
+        android:orderInCategory="100"
+        android:title="Delete"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/ib_remove_all_card"
+        android:orderInCategory="100"
+        android:title="Remove Cards"
+        app:showAsAction="never"/>
+</menu>

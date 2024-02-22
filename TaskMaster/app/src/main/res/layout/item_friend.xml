@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/item_friend_marginBottom"
+    android:background="@drawable/shape_member_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/friend_member_content_padding">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_friend_image"
+            android:layout_width="@dimen/item_friend_friend_image_size"
+            android:layout_height="@dimen/item_friend_friend_image_size"
+            android:contentDescription="@string/image_contentDescription"
+            android:src="@drawable/user"
+            android:theme="@style/ImageStyleCornerRounded"
+            app:civ_border_color="@color/primary_text_color"
+            app:civ_border_width="@dimen/item_friend_image_circular_width_size" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/item_friend_detail_layout_marginStart"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_friend_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/primary_text_color"
+                android:textSize="@dimen/item_friend_name_text_size"
+                tools:text="Friend Name" />
+
+            <TextView
+                android:id="@+id/tv_friend_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/secondary_text_color"
+                android:textSize="@dimen/item_friend_email_text_size"
+                tools:text="Email" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/iv_selected_friend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginEnd="@dimen/item_label_color_selected_image_marginEnd"
+            android:contentDescription="@string/image_contentDescription"
+            android:src="@drawable/ic_vector_done"
+            android:visibility="gone"
+            tools:visibility="visible" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/item_friend_divider_height"
+        android:layout_marginTop="@dimen/item_friend_divider_marginTop"
+        android:background="@color/divider_color" />
+</LinearLayout>
