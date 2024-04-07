@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_dialog_rounded"
+        app:cardCornerRadius="@dimen/dialog_friend_cv_cornerRadius"
+        app:cardElevation="@dimen/dialog_friend_cv_elevation">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="@dimen/dialog_friend_content_padding">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animateViewCanDoBetter"
+                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                app:lottie_autoPlay="true"
+                app:lottie_speed="1"
+                android:layout_height="100dp"
+                app:lottie_fileName="newex.json"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="You can do better"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:fontFamily="sans-serif-black"
+                android:textSize="30sp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/friend_dialog_action_layout_marginTop"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="219dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:text="You are doing great job! But you always can do better! You are close to complete all of you tasks!" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/btn_close_can_do_better"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CLOSE"
+                android:gravity="center"
+                android:textColor="@color/colorPrimary"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

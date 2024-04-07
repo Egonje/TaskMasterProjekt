@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+        thee
+        <item
+            android:id="@+id/action_friends"
+            android:icon="@drawable/friends"
+            android:orderInCategory="100"
+            android:title="@string/friends" />
+        <item
+            android:id="@+id/set_background"
+            android:icon="@drawable/bg_icon_menu"
+            android:orderInCategory="100"
+            android:title="Background" />
+        <item
+            android:id="@+id/remove_background"
+            android:icon="@drawable/bg_icon_menu"
+            android:orderInCategory="100"
+            android:title="Remove Background" />
+        <item
+            android:id="@+id/small_top_Bar"
+            android:icon="@drawable/bg_icon_menu"
+            android:orderInCategory="100"
+            android:title="Small Top Bar" />
+        <item
+            android:id="@+id/big_top_Bar"
+            android:icon="@drawable/bg_icon_menu"
+            android:orderInCategory="100"
+            android:title="Big Top Bar" />
+        <item
+            android:id="@+id/delete_board"
+            android:icon="@drawable/bg_icon_menu"
+            android:orderInCategory="100"
+            android:title="Delete Board" />
+</menu>
